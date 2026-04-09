@@ -2,13 +2,27 @@
 #This script using Bash is for notes and examples of: Variables (setting, calling, echo)
 
 #CONCEPT DESCRIPTION
-#-------------------
+# ----------------------------------------------------
 # Variables are things that we store data within. 
 # They can contain different data types:
 # ex. Integers (int) --> +/- numbers without decimals
 # 	  Float --> numbers with decimals (uses 32 bit). Used to save memory
 #	  Double --> Default for numbers w/ decimals and contains double the amount of bits as a float
 #     String --> Default type of data in Bash. Ordered sequence of characters/text
+# 
+# This data is useful for many things - such as user input. Varying data can be collected from users
+# and used in the script to do different things.
+# ----------------------------------------------------
+# ANALOGY
+# 
+# Think of it like a box. You can store different things inside the box.
+# It is helpful to "label" this box by giving it a descriptive name so you know what 
+# is inside the box/what you are using it for.
+# The contents can change over time - its not a sealed box, but a reusable container
+# You can replace whats inside - like money in a bank account. It still contains money
+# (the usage for the box/variable stays the same) but the amount/value changes.
+# Its useful because you can use this same box to add things into or take things out of
+# ----------------------------------------------------
 
 #This is an example of setting a variable. For naming convention: do NOT begin with
 # numbers, capitals, or underscores. Use underscores as spaces. 
