@@ -26,5 +26,6 @@
 
 #This is an example of setting a variable. For naming convention: do NOT begin with
 # numbers, capitals, or underscores. Use underscores as spaces. 
+# Be descriptive with names so you and others know exactly what it is for
 descriptive_variable_name_example="example string of data"
 
