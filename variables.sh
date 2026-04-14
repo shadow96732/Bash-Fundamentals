@@ -31,5 +31,8 @@
 descriptive_variable_name_example="example string of data"
 
 #This is an example of calling a variable within an echo command
+#The use of a $ is required before the variable to call the variable
 echo "This is the data stored within the variable: $descriptive_variable_name_example"
 
+#Common issues with variable calls may come from issues with improper quotation that
+# do not support variable expansion (see quotation notes for more info)
