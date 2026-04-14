@@ -8,7 +8,7 @@
 # ex. Integers (int) --> +/- numbers without decimals
 # 	  Float --> numbers with decimals (uses 32 bit). Used to save memory
 #	  Double --> Default for numbers w/ decimals and contains double the amount of bits as a float
-#     String --> Default type of data in Bash. Ordered sequence of characters/text
+#     String (str) --> Default type of data in Bash. Ordered sequence of characters/text
 # 
 # This data is useful for many things - such as user input. Varying data can be collected from users
 # and used in the script to do different things.
