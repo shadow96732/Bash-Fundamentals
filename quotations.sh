@@ -9,3 +9,10 @@
 # There are two main types of quotations in bash:
 # 		Single Quotes '' --> used for literal text
 #		Double Quotes "" --> used when you want to enable variable expansion
+
+
+#Demo of single vs double quotes. Notice when running the script --> one echo cmd 
+#displays in plain text the variable call, and the other displays the variable contents.
+variable='variable_expansion'
+echo '$variable'
+echo "$variable"
