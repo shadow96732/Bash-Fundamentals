@@ -1,5 +1,5 @@
 #!/bin/bash
-# This script using Bash is for notes and examples ofthe use of: Quotations
+# This script using Bash is for notes and examples of the use of: Quotations
 
 #CONCEPT DESCRIPTION
 # ----------------------------------------------------
