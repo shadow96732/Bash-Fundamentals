@@ -16,3 +16,10 @@
 variable='variable_expansion'
 echo '$variable'
 echo "$variable"
+
+#Common issues may arise from:
+# ex. not ensuring quotations close the string (syntax error)
+#	  undesired special character usage
+#	--> \ (backslash is an escape character)
+# 	--> using same quote type within quote
+#	--> not using proper quotation type (double vs single)
