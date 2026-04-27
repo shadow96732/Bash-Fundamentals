@@ -13,7 +13,7 @@
 
 #Demo of single vs double quotes. Notice when running the script --> one echo cmd 
 #displays in plain text the variable call, and the other displays the variable contents.
-variable='variable_expansion'
+variable='variable expansion occurred'
 echo '$variable'
 echo "$variable"
 
