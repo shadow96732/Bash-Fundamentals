@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 #CONCEPT DESCRIPTION
 # ----------------------------------------------------
 # There are different types of brackets in Bash
@@ -35,6 +34,8 @@ fi
 # 	--> Used for evaluating expressions and performing comparisons (arithmetic/math)
 #	--> only uses integers, not decimals
 #	--> does not support strings	
+answer=$(( 2 + 2 ))
+echo "$answer"
 
 
 # {} Wavy Brackets/Curly Braces
