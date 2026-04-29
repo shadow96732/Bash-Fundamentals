@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 #CONCEPT DESCRIPTION
 # ----------------------------------------------------
 # There are different types of brackets in Bash
