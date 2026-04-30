@@ -7,8 +7,9 @@
 
 # [] Single Square Brackets
 #	--> used for testing conditions (comparisons, file existence and attributes)
-#	--> whitespace matters. see ex. below
 #	--> is portable (POSIX)
+#	--> variables should be quoted to avoid word splitting/globbing
+#	--> whitespace matters. see ex. below
 if [ 5 > 1 ]; then
 	echo "true"
 fi
@@ -21,19 +22,26 @@ fi
 
 # [[]] Double Square Brackets
 #	--> safer conditionals
-#	--> pattern matching
-#	--> differences from single square brackets
-#		--> supports && and ||
-#		--> supports regex
-#		--> more forgiving with quoting
+#	--> supports pattern matching
+#	--> supports && and ||
+#	--> supports regex
+#	--> more forgiving with quoting than []
+# --> more Bash specific and robust than []
+
+if [[ word == *r* ]]; then 
+	echo "contains the letter 'r'. Note: the asterisks are used to search the word for any r's"
+fi
+
 
 
 # () Single Parenthesis/Round Brackets
 
 # (()) Double Parenthesis/Round Brackets
-# 	--> Used for evaluating expressions and performing comparisons (arithmetic/math)
+# --> Used for evaluating expressions and performing comparisons (arithmetic/math)
 #	--> only uses integers, not decimals
 #	--> does not support strings	
+# --> does not require $ for variables inside
+
 answer=$(( 2 + 2 ))
 echo "$answer"
 
