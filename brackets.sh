@@ -35,6 +35,7 @@ fi
 
 
 # () Single Parenthesis/Round Brackets
+# --> often used for creating subshells and command substitution
 
 # (()) Double Parenthesis/Round Brackets
 # --> Used for evaluating expressions and performing comparisons (arithmetic/math)
@@ -47,4 +48,9 @@ echo "$answer"
 
 
 # {} Wavy Brackets/Curly Braces
+# --> used for brace expansion
+# --> often used for command grouping or function definition
+
+echo {1..10} #this is brace expansion of a sequence
+
 # <> Angle Brackets
