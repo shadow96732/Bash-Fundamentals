@@ -59,3 +59,11 @@ else
 fi
 
 
+# COMMON MISTAKES / TROUBLESHOOTING ISSUES
+# --> Incorrect use of brackets / syntax error with spacing
+#	--> See brackets.sh for more detail on brackets
+# --> Error with quotations / variables
+# --> Mixing up conditionals/operators
+#		--> there are different operators used for strings than numbers
+#		--> see conditionals.sh for more detail
+# --> Forgetting fi at the end
