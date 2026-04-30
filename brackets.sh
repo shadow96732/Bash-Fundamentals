@@ -51,6 +51,10 @@ echo "$answer"
 # --> used for brace expansion
 # --> often used for command grouping or function definition
 
-echo {1..10} #this is brace expansion of a sequence
+echo {1..10} #this is an example of brace expansion of a sequence
+my_function() {
+	echo 'this is a function and has {} that define it'
+}
+my_function
 
 # <> Angle Brackets
