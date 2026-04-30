@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# This script using Bash is for notes and examples of the use of: brackets
 #CONCEPT DESCRIPTION
 # ----------------------------------------------------
 # There are different types of brackets in Bash
