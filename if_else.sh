@@ -67,3 +67,7 @@ fi
 #		--> there are different operators used for strings than numbers
 #		--> see conditionals.sh for more detail
 # --> Forgetting fi at the end
+# --> Forgetting semi colon or improper placement
+#   --> it should be after the end bracket of the condition
+# --> Forgetting 'then'
+#   --> it should be a space after the ;
