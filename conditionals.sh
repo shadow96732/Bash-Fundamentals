@@ -34,6 +34,14 @@ fi
 # --> OR (||)
 # --> NOT (!)
 
+num1=5
+num2=31
+if [[ $num1 = 5 && $num2 = 31 ]]; then
+	echo 'true'
+else
+	echo 'not true'
+fi
+
 # File Checks
 # -->  -f file   regular file
 # -->  -d dir    directory
