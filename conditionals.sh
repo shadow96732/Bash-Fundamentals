@@ -50,6 +50,14 @@ fi
 # -->  -w file   writable
 # -->  -x file   executable
 
+if [ -f "file.txt" ]; then
+    echo "File exists" # echos this text if the condition: -f "file text" is true
+elif [ -d "file.txt" ]; then
+    echo "It's a directory" # echos this text if the condition: -d "file text" is true
+else
+    echo "Not found"
+fi
+
 
 #example usage in a case statement
 # the conditional part is "does this $variable match this pattern"
