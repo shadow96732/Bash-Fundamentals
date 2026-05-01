@@ -49,3 +49,13 @@ fi
 # -->  -r file   readable
 # -->  -w file   writable
 # -->  -x file   executable
+
+
+#example usage in a case statement
+# the conditional part is "does this $variable match this pattern"
+read -p "enter a letter: " variable
+case "$variable" in
+	a|A) echo "letter entered was A";; #pattern 1
+	b|B) echo "letter entered was B";; # pattern 2
+	*) echo "value entered does not match A or B";; # default
+esac
