@@ -36,6 +36,14 @@ fi
 
 # () Single Parenthesis/Round Brackets
 # --> often used for creating subshells and command substitution
+# 	--> subshells are used when you want to isolate tasks from your current environment
+#			--> do not use subshells if you want your results to persist.
+
+(
+  rm *.tmp # in this example, command(s) are being tested in a "safe sandbox" that wont affect current shell state
+  echo "Temporary files deleted"
+)
+
 
 # (()) Double Parenthesis/Round Brackets
 # --> Used for evaluating expressions and performing comparisons (arithmetic/math)
