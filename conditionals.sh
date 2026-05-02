@@ -67,3 +67,11 @@ case "$variable" in
 	b|B) echo "letter entered was B";; # pattern 2
 	*) echo "value entered does not match A or B";; # default
 esac
+
+# COMMON MISTAKES
+# Syntax errors
+# 	--> forgetting ;; in case statements
+# 	--> forgetting to quote variables (risks word splitting)
+# 	--> improper bracket usage (see brackets.sh)
+# 	--> missing spaces
+# 	--> Using the wrong conditional operator (ex. numbers and strings use different comparisons)
