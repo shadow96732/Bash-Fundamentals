@@ -72,6 +72,5 @@ esac
 # Syntax errors
 # 	--> forgetting ;; in case statements
 # 	--> forgetting to quote variables (risks word splitting)
-# 	--> improper bracket usage (see brackets.sh)
-# 	--> missing spaces
+# 	--> improper bracket usage or missing spacess (see brackets.sh for info)
 # 	--> Using the wrong conditional operator (ex. numbers and strings use different comparisons)
