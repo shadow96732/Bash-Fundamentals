@@ -10,6 +10,7 @@
 # --> The newline is removed
 # --> Data goes into one or more variables
 # 	--> extra values go into the last variable
+# --> if no variable is given, it defaults storage in $REPLY
 
 # FLAGS
 # -p --> prompts the user
