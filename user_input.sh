@@ -16,3 +16,13 @@
 # -p --> prompts the user
 # -s --> silent input (hides input for passwords)
 # -r --> prevents word splitting
+
+#ex.
+read -p "Enter user input here: "
+echo "your input was: $REPLY"
+
+
+read -p "Enter First name and Last name: " first_name last_name
+read -s -p "Enter a password here: " password
+echo -e " \n Your first name is: $first_name \n your last name is: $last_name \n the password you entered was: $password"
+
