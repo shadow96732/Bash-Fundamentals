@@ -3,3 +3,5 @@
 
 #CONCEPT DESCRIPTION
 # ----------------------------------------------------
+# Case statements are control structures used for pattern-based branching.
+# --> it is often used as a cleaner alternative to nested if/elif branches
