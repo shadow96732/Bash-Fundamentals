@@ -5,12 +5,18 @@
 # ----------------------------------------------------
 # Case statements are control structures used for pattern-based branching.
 # --> it is often used as a cleaner alternative to nested if/elif branches
+
 # --> case statement pattern matching is case-sensitive
 #	--> the 'shopt' command can be used to toggle optional shell options/behaviour, including case sensitivity
+
 # --> ;; are used to end a clause
 # 	--> while they are the standard use, other options exist as well, including:
 #		--> ;;& which ends the clause and continues testing patterns
 #		--> ;& end clause and run the next clause unconditionally
+
+# --> case does NOT use regular expression or support arithmetic comparison
+# --> everything for the pattern matching is treated as strings
+
 shopt -s nocasematch # 'nocasematch' turns of case sensitivity, and the -s flag is for enabling
 read -p "Enter input (A or B or Other): " input
 	case $input in
