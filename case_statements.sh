@@ -21,7 +21,7 @@
 
 shopt -s nocasematch # 'nocasematch' turns of case sensitivity, and the -s flag is for enabling
 read -p "Enter input (A or B or Other): " variable
-	case $variable in
+	case "$variable" in
 		a) #pattern 1 --> each pattern is followed by )
 			echo "execute this text - matches A" ;; 
 		B) #pattern 2
@@ -30,3 +30,8 @@ read -p "Enter input (A or B or Other): " variable
 			echo "didnt match" ;;
 	esac #used to mark the end of/close the case statement
 	shopt -u nocasematch #the -u flag is for disabling the 'nocasematch' option (if you dont want it affecting the rest of the script)
+
+#COMMON MISTAKES
+# --> forgetting to close the statement with esac
+# --> case-sensitivity in pattern matching (unless disabled)
+# --> not closing the clause with ;; or an alternative
