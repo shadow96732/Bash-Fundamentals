@@ -65,4 +65,9 @@ my_function() {
 }
 my_function
 
-# <> Angle Brackets
+
+#COMMON MISTAKES
+# not quoting variables in []
+# using decimal values in ((  ))
+# using () in a subshell but expecting to keep variables or values within it
+# using the wrong conditional operator
