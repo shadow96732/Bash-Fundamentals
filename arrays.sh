@@ -18,3 +18,11 @@ done
 # the loop size stays the same regardless of the amount of values in the array (removes repetitive code)
 # this can be a powerful tool for automation of tasks
 # --> recall LDAP setup. an array and loop was used to add a list of users 
+
+#COMMMON MISTAKES
+# using commas in the array assignment
+# --> there are no commas in arrays in Bash
+# defining a variable and not an array
+# --> arrays must have values enclosed within () and each value must be quoted individually
+# referencing first value as index [1]
+# --> the index of arrays begins at 0
