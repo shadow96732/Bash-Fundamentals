@@ -5,6 +5,7 @@ Bash (Bourne Again SHell) is a command-line interpreter and scripting language f
 ## How is this repo helping me learn and practice bash?
 This repo is helping me learn and practice bash by not only practically applying knowledge by creating example code, but challenging me to explain the content, truly testing my understanding.
 ## Usefulness of documentation
+Documentation is useful as it improves clarity for yourself and others. It is helpful when referencing code to understand what each line does. This makes it easier to debug, refine/improve, or add new aspects into later. By adding documentation, it is clear what each part of the code is intended to do rather than having to reverse engineer code to figure it out. 
 ## Purpose of using Git
 ## Git industry usage
 ## Challenges
