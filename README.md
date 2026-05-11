@@ -9,7 +9,9 @@ Documentation is useful as it improves clarity for yourself and others. It is he
 
 Documentation is not only for others to read, but also for yourself in large scale projects, or even small projects that you go back to after a period of time where you may not be familiar with everything you did before.
 ## Purpose of using Git
-Git is an important tool for managing files.
+Git is an important tool for managing files. It helps you track progress, changes, and allows you to revert to previous versions - ways to save your work. You can also push things to GitHub, the online server, where you can access your work from other locations and devices, rather than having everything stored solely locally. 
+
+Git also allows collaboration with others.
 ## Git industry usage
 ## Challenges
 ### Challenges I have faced
