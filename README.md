@@ -15,5 +15,4 @@ Git also allows collaboration with others.
 ## Git industry usage
 Git is an important system in industry because it allows development teams to collaborate without overwriting each others' work or creating conflicting versions.
 ## Challenges
-### Challenges I have faced
-### Current Challenges
+A challenge that I have faced and overcome is divided focus. Although difficult, I was able to make the call on what work needs to be prioritized.
