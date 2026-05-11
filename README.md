@@ -13,6 +13,7 @@ Git is an important tool for managing files. It helps you track progress, change
 
 Git also allows collaboration with others.
 ## Git industry usage
+Git is an important system in industry because it allows development teams to collaborate without overwriting each others' work or creating conflicting versions.
 ## Challenges
 ### Challenges I have faced
 ### Current Challenges
