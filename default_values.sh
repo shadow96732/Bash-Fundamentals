@@ -3,3 +3,9 @@
 
 #CONCEPT DESCRIPTION
 # ----------------------------------------------------
+# default values are the fallback values when variables are empty or not provided
+
+name=${USER_NAME:-Guest}
+
+echo "Hello, $name"
+# if USER_NAME is unset, the default value its being set to is 'Guest'
