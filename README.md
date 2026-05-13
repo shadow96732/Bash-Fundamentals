@@ -18,3 +18,6 @@ Git is an important system in industry because it allows development teams to co
 A challenge that I have faced and overcome is divided focus. Although difficult, I was able to make the call on what work needs to be prioritized.
 
 I am currently faced with the rolling snowball effect of catching up from the work that I missed or was behind on previously. I plan to overcome this challenge by putting in more work after school.
+
+I have also recognized that I need to get better at identifying when to take breaks.
+I have noticed that sometimes after a period of time, productivity and efficiency dies despite thinking I am "working" and while committing time. This occurs at a state of burnout or something where I am unaware that I am not actually getting anything done even while trying. I am challenged with recognizing signs of when to take a step back, take a break, and come back to work when I can effectively work.
