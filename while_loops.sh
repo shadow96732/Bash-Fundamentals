@@ -25,3 +25,16 @@ done
 
 # --------------------------------------------------------
 
+count=1
+
+while [[ $count -le 5 ]]
+do
+    echo "Count: $count"
+    ((count++))
+done
+
+# this is another example of a while loop.
+# --> counters like this are very common in games and object oriented programming
+#	--> ex. this is commonly used when spawning multiple characters into a world
+# 		--> (recall projects for comp sci last year)
+
