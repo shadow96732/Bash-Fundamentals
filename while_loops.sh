@@ -38,3 +38,12 @@ done
 #	--> ex. this is commonly used when spawning multiple characters into a world
 # 		--> (recall projects for comp sci last year)
 
+
+# COMMON MISTAKES
+
+# --> forgetting do
+# --> forgetting to close the loop with done
+# --> accidentally creating unintended infinite loops
+#	--> forgotten increment at the end of loop counter
+# --> improper bracket or conditional usage (see brackets.sh or conditionals.sh for more detail)
+# --> not using break within loop because you want it to stop immediately if some other condition is true
