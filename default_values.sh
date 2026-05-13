@@ -19,4 +19,7 @@ echo ${USER_NAME:?error_message}
 # --> alt version, displays error msg if unset or empty
 # --> exits the script afterward
 
-
+#COMMON MISTAKES
+# --> assuming the script continues running after :?
+# --> confusing :- and := 
+#	--> := assigns the value, :- does not
