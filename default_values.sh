@@ -7,5 +7,16 @@
 
 name=${USER_NAME:-Guest}
 
-echo "Hello, $name"
-# if USER_NAME is unset, the default value its being set to is 'Guest'
+echo "$name"
+# if USER_NAME is unset OR empty, the default value being used is 'Guest'
+# --> note: the value is still unset afterward
+
+read -p "enter a value: " value
+echo ${value:=default}
+# --> this alternate version *assigns the value if left empty or unset
+
+echo ${USER_NAME:?error_message}
+# --> alt version, displays error msg if unset or empty
+# --> exits the script afterward
+
+
