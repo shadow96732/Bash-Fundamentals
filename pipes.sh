@@ -14,3 +14,7 @@ echo "hello world" | tr 'a-z' 'A-Z'
 # in this example, this takes the output of ls as the input of sort
 # --> this translates the text into CAPITALS
 
+#COMMON MISTAKES
+# --> thinking pipe means "then"
+#	--> its more specific then run command1 then command2
+#		--> its taking the output of command1 and using it as the input of command2
