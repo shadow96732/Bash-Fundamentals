@@ -21,4 +21,13 @@
 first_initial=("J" "N" "H")
 last_initial=("L" "M" "H")
 # This logically connects the indexes
+# first_initial[0] <--> last_initial[0]
 echo "${first_initial[0]} corresponds to ${last_initial[0]}"
+
+# you could also create an Associative Array:
+declare -A table
+table["0,0"]="J"
+table["0,1"]="L"
+# Note: each value must be assigned individually
+
+echo "${table[0,0]}" 
