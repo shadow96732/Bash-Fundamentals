@@ -9,3 +9,8 @@
 #			VISUAL MENTAL MODEL
 #				--> without pipe: command --> screen
 #				--> with pipe: command1 --> command2 --> screen
+
+echo "hello world" | tr 'a-z' 'A-Z'
+# in this example, this takes the output of ls as the input of sort
+# --> this translates the text into CAPITALS
+
