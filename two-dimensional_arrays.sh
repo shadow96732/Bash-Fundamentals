@@ -31,3 +31,10 @@ table["0,1"]="L"
 # Note: each value must be assigned individually
 
 echo "${table[0,0]}" 
+
+# COMMON MISTAKES
+# --> expecting real 2D arrays like in python
+#	--> its not supported in Bash
+# --> improper 1D array (see arrays.sh for more detail)
+# --> out of sync arrays
+#	--> ensure all indexes match as desired or the logical relationship wont work
