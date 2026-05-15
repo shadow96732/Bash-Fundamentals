@@ -23,3 +23,7 @@ done
 # practical usage (batch renaming example)
 for file in *.txt; do
 	mv "$file" "$file.sh" 
+
+#COMMON MISTAKES
+# --> forgetting do, done, or ;
+# --> not quoting variables
