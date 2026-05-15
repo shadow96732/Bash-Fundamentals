@@ -46,3 +46,11 @@ echo "redirect together" > all.txt 2>&1 #this means that stderr is directed to w
 # * discarding output
 # --> it is very common to use the "black hole" file when you dont want outputs to be displayed
 #	--> you would redirect commands to /dev/null
+
+
+
+# COMMON MISTAKES
+# --> using > when you dont want to *overwrite and delete all previous content
+#	--> use >> append redirect instead
+# --> wrong order of 2>&1 
+# 	--> should be placed AFTER location
