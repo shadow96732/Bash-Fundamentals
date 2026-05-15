@@ -15,3 +15,6 @@
 # Append Redirection (>>)
 # --> adds output(s) to the end of a file
 # 	--> it appends, whereas > overwrites
+
+# Input Redirection (<)
+# --> uses file as input
