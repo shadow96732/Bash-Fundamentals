@@ -11,10 +11,14 @@
 # --> sends output(s) of a command into a file
 # 	--> creates file if its missing
 #	--> OVERWRITES existing files
+echo "Hello world" > file.txt && cat file.txt
+echo "overwrite file" > file.txt #&& cat file.txt
 
 # Append Redirection (>>)
 # --> adds output(s) to the end of a file
 # 	--> it appends, whereas > overwrites
+echo "append redirect" >> file.txt && cat file.txt
 
 # Input Redirection (<)
 # --> uses file as input
+wc -l < file.txt
